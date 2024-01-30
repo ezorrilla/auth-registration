@@ -9,5 +9,4 @@ API REST ful of users registration
 
 | Api Rest | Method | Protected | Validations | Request | Response |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| /v1/unprotected/doSignIn | POST| false | format email,format password,check user exist email, email and password coincidence|{"name":"FirstNameExample LastNameExample","email":"email@example.com","password":"Passwordexampler12","phones":[{"number":"946644558","city_code":"1","country_code":"57"}]} | {"id":1,"created":"16-02-2020 22:34:26","modified":"16-02-2020 22:35:07","last_login":"16-02-2020 22:35:07","token":"eyJhbGciOiJIUzI1NiJ9","active":true}
-
+| /api/auth/signup | POST| false | format email,format password,check user exist email, email and password coincidence|{"name":"string","email":"string","password":"YyiYiAgZpe40","phones":[{"number":"string","citycode":"string","countryCode":"string"}]} | {"data":{"id":"4f4cc0e1-cbdc-4815-804b-a7e8622b7332","created":"2024-01-30T10:15:56.964657","modified":"2024-01-30T10:15:56.964657","last_login":"2024-01-30T10:15:56.964657","token":"eyJhbGciOiJIUzI1NiJ9","isactive":true},"mensaje":"Successfully!","status":200}
