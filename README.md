@@ -2,8 +2,22 @@
 API REST ful of users registration
 
 ### Api Rest Ath Registration
+- Swagger URL: http://localhost:8081/register/swagger-ui/index.html
+  
 ![image](https://github.com/ezorrilla/auth-registration/assets/22652830/94d9ac1c-2328-451f-ad3c-2feeff686e21)
 
+
+# What does the repository contain?
+
+  - HSQLDB memory database.
+  - Java version 21 SDK.
+  - Framework SpringBoot
+  - Build in Maven.
+  - JPA persistence with Hibernate
+  - Api Rest response the requeriment.
+  - Token JWT and user persistence during the session.
+  - Swagger v3
+  - All project have diversity of syntax for old and new java code.
 
 ## Registro
 * Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "contraseña", más un listado de objetos "teléfono", respetando el siguiente formato:
