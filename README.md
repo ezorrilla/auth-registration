@@ -1,7 +1,7 @@
-# auth-registration
-API REST ful of users registration
+# Auth-registration
+API RESTful of users registration
 
-### Api Rest Ath Registration
+### Api Rest Auth Registration
 - Swagger URL: http://localhost:8081/register/swagger-ui/index.html
   
 ![image](https://github.com/ezorrilla/auth-registration/assets/22652830/94d9ac1c-2328-451f-ad3c-2feeff686e21)
