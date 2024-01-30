@@ -20,7 +20,7 @@ API REST ful of users registration
   - All project have diversity of syntax for old and new java code.
 
 ## Registro
-* Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "contraseña", más un listado de objetos "teléfono", respetando el siguiente formato:
+* This endpoint must receive a user with the fields "name", "email", "password", plus a list of "phone" objects, respecting the following format:
 ```json
     {
         "name": "Juan Rodriguez",
